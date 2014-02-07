@@ -76,7 +76,7 @@ enable_bonjour = 1
 
 [other]
 enable_instruction_webpage = 1
-notify_timeout = 5000""")
+notify_timeout = 1000""")
 
 parser = ConfigParser.ConfigParser()
 parser.read(conf_file)
